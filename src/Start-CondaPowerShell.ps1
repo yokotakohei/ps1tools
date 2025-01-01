@@ -13,7 +13,7 @@
     The root directory of the Conda installation. Default is "$Env:USERPROFILE\miniconda3".
 
 .EXAMPLE
-    PS> .\Start-CondaSession.ps1 -EnvName "myenv"
+    PS> .\Start-CondaPowerShell.ps1 -EnvName "myenv"
     Activates the "myenv" Conda environment and starts an Anaconda PowerShell session.
 #>
 
